@@ -32,18 +32,20 @@ module row_column_multiplication(
 	wire addervalidity31tmp, addervalidity32tmp, addervalidity3;
 
 
+
+
 	Floating_Point_Multipler Element1 (
-  .aclk(clk), // input aclk
-  .s_axis_a_tvalid(validin), // input s_axis_a_tvalid
-  .s_axis_a_tready(s_axis_a_tready), // output s_axis_a_tready
-  .s_axis_a_tdata(row[31:0]), // input [31 : 0] s_axis_a_tdata
-  .s_axis_b_tvalid(validin), // input s_axis_b_tvalid
-  .s_axis_b_tready(s_axis_b_tready), // output s_axis_b_tready
-  .s_axis_b_tdata(column[31:0]), // input [31 : 0] s_axis_b_tdata
-  .m_axis_result_tvalid(valid1), // output m_axis_result_tvalid
-  .m_axis_result_tready(m_axis_result_tready), // input m_axis_result_tready
-  .m_axis_result_tdata(tmp1[31:0]) // output [31 : 0] m_axis_result_tdata
-);
+	  .aclk(clk), // input aclk
+	  .s_axis_a_tvalid(validin), // input s_axis_a_tvalid
+	  .s_axis_a_tready(s_axis_a_tready), // output s_axis_a_tready
+	  .s_axis_a_tdata(row[31:0]), // input [31 : 0] s_axis_a_tdata
+	  .s_axis_b_tvalid(validin), // input s_axis_b_tvalid
+	  .s_axis_b_tready(s_axis_b_tready), // output s_axis_b_tready
+	  .s_axis_b_tdata(column[31:0]), // input [31 : 0] s_axis_b_tdata
+	  .m_axis_result_tvalid(valid1), // output m_axis_result_tvalid
+	  .m_axis_result_tready(m_axis_result_tready), // input m_axis_result_tready
+	  .m_axis_result_tdata(tmp1[31:0]) // output [31 : 0] m_axis_result_tdata
+	);
 
 	Floating_Point_Multipler Element2 (
   .aclk(clk), // input aclk
