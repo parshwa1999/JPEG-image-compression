@@ -1,2 +1,2 @@
 # JPEG-image-compression
-Implementation of jpeg image compression on matlab
+Implementation of jpeg image compression on Verilog
