@@ -1,0 +1,29 @@
+Command line:
+   row_column_multiplication_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51201
+
+Tue Oct 10 12:39:45 2017
+
+
+ Elaboration Time: 0.8125 sec
+
+ Current Memory Usage: 1258.25 Meg
+
+ Total Signals          : 70168
+ Total Nets             : 46687
+ Total Signal Drivers   : 27902
+ Total Blocks           : 15635
+ Total Primitive Blocks : 11566
+ Total Processes        : 52651
+ Total Traceable Variables  : 40239
+ Total Scalar Nets and Variables : 299512
+Total Line Count : 173840
+
+ Total Simulation Time: 1.0625 sec
+
+ Current Memory Usage: 1258.25 Meg
+
+Tue Oct 10 12:40:00 2017
+

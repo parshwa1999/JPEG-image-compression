@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="746" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 586: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 641: Assignment to <arg fmt="%s" index="1">s_axis_a_tdata_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 682: Assignment to <arg fmt="%s" index="1">m_axis_result_tready_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\xbip_pipe_v2_0\xbip_pipe_v2_0_xst.vhd" Line 207: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_pkg_v6_1.vhd" Line 6766: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\shared\carry_chain.vhd" Line 202: Net &lt;<arg fmt="%s" index="1">q_int[6]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\shared\carry_chain.vhd" Line 201: Net &lt;<arg fmt="%s" index="1">carrys_int_reg[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\shared\carry_chain.vhd" Line 198: Net &lt;<arg fmt="%s" index="1">carry[9]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\flt_add\flt_add_exp.vhd" Line 299: Net &lt;<arg fmt="%s" index="1">dec_state_pre_op[11]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\flt_add\flt_add_dsp.vhd" Line 215: Net &lt;<arg fmt="%s" index="1">add_mant_msbs[1]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_pkg_v6_1.vhd" Line 7454: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 417: Net &lt;<arg fmt="%s" index="1">s_axis_b_tuser_i[0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 418: Net &lt;<arg fmt="%s" index="1">s_axis_b_tlast_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 422: Net &lt;<arg fmt="%s" index="1">m_axis_z_tdata_operation[5]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 449: Net &lt;<arg fmt="%s" index="1">divide_by_zero_ud</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 576: Net &lt;<arg fmt="%s" index="1">sclr_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 605: Net &lt;<arg fmt="%s" index="1">m_axis_result_tuser_not_abs[0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\floating_point_v6_1\floating_point_v6_1_xst.vhd" Line 607: Net &lt;<arg fmt="%s" index="1">m_axis_result_tlast_not_abs</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\Foating_Point_Adder.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_result_tuser</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\Foating_Point_Adder.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">s_axis_operation_tready</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\1641068\Downloads\matrix_multiplication\ipcore_dir\tmp\_cg\_dbg\Foating_Point_Adder.vhd</arg>&quot; line <arg fmt="%s" index="2">157</arg>: Output port &lt;<arg fmt="%s" index="3">m_axis_result_tlast</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">U0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

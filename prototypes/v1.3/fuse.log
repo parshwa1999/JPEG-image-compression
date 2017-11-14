@@ -1,0 +1,44 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/1641068/Downloads/matrix_multiplication/test2_isim_beh.exe -prj C:/Users/1641068/Downloads/matrix_multiplication/test2_beh.prj work.test2 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/1641068/Downloads/matrix_multiplication/ipcore_dir/Floating_Point_Multipler.v" into library work
+Analyzing Verilog file "C:/Users/1641068/Downloads/matrix_multiplication/ipcore_dir/Foating_Point_Adder.v" into library work
+WARNING:HDLCompiler:687 - "C:/Users/1641068/Downloads/matrix_multiplication/ipcore_dir/Foating_Point_Adder.v" Line 9255: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "C:/Users/1641068/Downloads/matrix_multiplication/row_column_multiplication.v" into library work
+Analyzing Verilog file "C:/Users/1641068/Downloads/matrix_multiplication/test2.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+Completed static elaboration
+Compiling module FDE
+Compiling module SRLC16E
+Compiling module INV
+Compiling module LUT2(INIT=4'b1110)
+Compiling module LUT6(INIT=64'b110110000000100011...
+Compiling module LUT5(INIT=32'b010011110100010001...
+Compiling module LUT3(INIT=8'b10001010)
+Compiling module LUT4(INIT=16'b1000101011111111)
+Compiling module LUT1(INIT=2'b10)
+Compiling module FD
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module GND
+Compiling module VCC
+Compiling module DSP48E1(ADREG=0,ALUMODEREG=0,CAR...
+Compiling module DSP48E1(ADREG=0,A_INPUT="CASCADE...
+Compiling module Floating_Point_Multipler
+Compiling module FDRE
+Compiling module DSP48E1(ACASCREG=2,ADREG=0,AREG=...
+Compiling module DSP48E1(ADREG=0,DREG=0,INMODEREG...
+Compiling module Foating_Point_Adder
+Compiling module row_column_multiplication
+Compiling module test2
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 116 Verilog Units
+Built simulation executable C:/Users/1641068/Downloads/matrix_multiplication/test2_isim_beh.exe
+Fuse Memory Usage: 47844 KB
+Fuse CPU Usage: 1187 ms

@@ -1,0 +1,5 @@
+verilog work "ipcore_dir/Floating_Point_Multipler.v"
+verilog work "ipcore_dir/Foating_Point_Adder.v"
+verilog work "row_column_multiplication.v"
+verilog work "test2.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
