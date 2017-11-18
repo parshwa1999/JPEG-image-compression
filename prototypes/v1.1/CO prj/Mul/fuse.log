@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Admin/Documents/CO prj/Mul/mul_tb_isim_beh.exe -prj C:/Users/Admin/Documents/CO prj/Mul/mul_tb_beh.prj work.mul_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Admin/Documents/CO prj/Mul/ipcore_dir/mul.v" into library work
+Analyzing Verilog file "C:/Users/Admin/Documents/CO prj/Mul/mul_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 144088 KB
+Fuse CPU Usage: 531 ms
+Compiling module FDE
+Compiling module SRLC16E
+Compiling module INV
+Compiling module LUT2(INIT=4'b1110)
+Compiling module LUT6(INIT=64'b110110000000100011...
+Compiling module LUT5(INIT=32'b010011110100010001...
+Compiling module LUT3(INIT=8'b10001010)
+Compiling module LUT4(INIT=16'b1000101011111111)
+Compiling module LUT1(INIT=2'b10)
+Compiling module FD
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module GND
+Compiling module VCC
+Compiling module DSP48E1(ADREG=0,ALUMODEREG=0,CAR...
+Compiling module DSP48E1(ADREG=0,A_INPUT="CASCADE...
+Compiling module mul
+Compiling module mul_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 60 Verilog Units
+Built simulation executable C:/Users/Admin/Documents/CO prj/Mul/mul_tb_isim_beh.exe
+Fuse Memory Usage: 150696 KB
+Fuse CPU Usage: 1389 ms

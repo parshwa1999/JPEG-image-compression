@@ -1,0 +1,61 @@
+Version 4
+SymbolType BLOCK
+TEXT 32 32 LEFT 4 matrixmul
+RECTANGLE Normal 32 32 544 448
+LINE Normal 0 80 32 80
+PIN 0 80 LEFT 36
+PINATTR PinName aclk
+PINATTR Polarity IN
+LINE Normal 0 112 32 112
+PIN 0 112 LEFT 36
+PINATTR PinName aresetn
+PINATTR Polarity IN
+LINE Normal 0 176 32 176
+PIN 0 176 LEFT 36
+PINATTR PinName s_axis_a_tvalid
+PINATTR Polarity IN
+LINE Wide 0 208 32 208
+PIN 0 208 LEFT 36
+PINATTR PinName s_axis_a_tdata[15:0]
+PINATTR Polarity IN
+LINE Normal 0 240 32 240
+PIN 0 240 LEFT 36
+PINATTR PinName s_axis_a_tready
+PINATTR Polarity OUT
+LINE Normal 0 272 32 272
+PIN 0 272 LEFT 36
+PINATTR PinName s_axis_a_tlast
+PINATTR Polarity IN
+LINE Normal 0 304 32 304
+PIN 0 304 LEFT 36
+PINATTR PinName s_axis_b_tvalid
+PINATTR Polarity IN
+LINE Wide 0 336 32 336
+PIN 0 336 LEFT 36
+PINATTR PinName s_axis_b_tdata[15:0]
+PINATTR Polarity IN
+LINE Normal 0 368 32 368
+PIN 0 368 LEFT 36
+PINATTR PinName s_axis_b_tready
+PINATTR Polarity OUT
+LINE Normal 0 400 32 400
+PIN 0 400 LEFT 36
+PINATTR PinName s_axis_b_tlast
+PINATTR Polarity IN
+LINE Normal 576 176 544 176
+PIN 576 176 RIGHT 36
+PINATTR PinName m_axis_c_tvalid
+PINATTR Polarity OUT
+LINE Wide 576 208 544 208
+PIN 576 208 RIGHT 36
+PINATTR PinName m_axis_c_tdata[15:0]
+PINATTR Polarity OUT
+LINE Normal 576 240 544 240
+PIN 576 240 RIGHT 36
+PINATTR PinName m_axis_c_tready
+PINATTR Polarity IN
+LINE Normal 576 272 544 272
+PIN 576 272 RIGHT 36
+PINATTR PinName m_axis_c_tlast
+PINATTR Polarity OUT
+

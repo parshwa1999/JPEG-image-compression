@@ -1,0 +1,17 @@
+# Output products list for <mul>
+demo_tb\tb_mul.vhd
+mul.asy
+mul.gise
+mul.ngc
+mul.sym
+mul.v
+mul.veo
+mul.xco
+mul.xise
+mul\cmodel\floating_point_v6_1_bitacc_cmodel_lin.zip
+mul\cmodel\floating_point_v6_1_bitacc_cmodel_lin64.zip
+mul\cmodel\floating_point_v6_1_bitacc_cmodel_nt.zip
+mul\cmodel\floating_point_v6_1_bitacc_cmodel_nt64.zip
+mul_flist.txt
+mul_readme.txt
+mul_xmdf.tcl

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="matrixmul">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-10-3T15:43:53</timestamp>
+    <pin polarity="Input" x="0" y="80" name="aclk" />
+    <pin polarity="Input" x="0" y="112" name="aresetn" />
+    <pin polarity="Input" x="0" y="176" name="s_axis_a_tvalid" />
+    <pin polarity="Input" x="0" y="208" name="s_axis_a_tdata[15:0]" />
+    <pin polarity="Output" x="0" y="240" name="s_axis_a_tready" />
+    <pin polarity="Input" x="0" y="272" name="s_axis_a_tlast" />
+    <pin polarity="Input" x="0" y="304" name="s_axis_b_tvalid" />
+    <pin polarity="Input" x="0" y="336" name="s_axis_b_tdata[15:0]" />
+    <pin polarity="Output" x="0" y="368" name="s_axis_b_tready" />
+    <pin polarity="Input" x="0" y="400" name="s_axis_b_tlast" />
+    <pin polarity="Output" x="576" y="176" name="m_axis_c_tvalid" />
+    <pin polarity="Output" x="576" y="208" name="m_axis_c_tdata[15:0]" />
+    <pin polarity="Input" x="576" y="240" name="m_axis_c_tready" />
+    <pin polarity="Output" x="576" y="272" name="m_axis_c_tlast" />
+    <graph>
+        <text style="fontsize:40;fontname:Arial" x="32" y="32">matrixmul</text>
+        <rect width="512" x="32" y="32" height="416" />
+        <line x2="32" y1="80" y2="80" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="80" type="pin aclk" />
+        <line x2="32" y1="112" y2="112" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin aresetn" />
+        <line x2="32" y1="176" y2="176" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="176" type="pin s_axis_a_tvalid" />
+        <line x2="32" y1="208" y2="208" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="208" type="pin s_axis_a_tdata[15:0]" />
+        <line x2="32" y1="240" y2="240" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="240" type="pin s_axis_a_tready" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin s_axis_a_tlast" />
+        <line x2="32" y1="304" y2="304" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="304" type="pin s_axis_b_tvalid" />
+        <line x2="32" y1="336" y2="336" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="336" type="pin s_axis_b_tdata[15:0]" />
+        <line x2="32" y1="368" y2="368" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="368" type="pin s_axis_b_tready" />
+        <line x2="32" y1="400" y2="400" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="400" type="pin s_axis_b_tlast" />
+        <line x2="544" y1="176" y2="176" x1="576" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="540" y="176" type="pin m_axis_c_tvalid" />
+        <line x2="544" y1="208" y2="208" style="linewidth:W" x1="576" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="540" y="208" type="pin m_axis_c_tdata[15:0]" />
+        <line x2="544" y1="240" y2="240" x1="576" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="540" y="240" type="pin m_axis_c_tready" />
+        <line x2="544" y1="272" y2="272" x1="576" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="540" y="272" type="pin m_axis_c_tlast" />
+    </graph>
+</symbol>

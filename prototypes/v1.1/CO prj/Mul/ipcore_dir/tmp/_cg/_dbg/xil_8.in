@@ -1,0 +1,37 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily artix7
+SET_PREFERENCE device xc7a100t
+SET_PREFERENCE speedgrade -1
+SET_PREFERENCE package csg324
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim false
+SET_PREFERENCE simulationfiles Structural
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory C:/Users/Admin/Documents/CO prj/Mul/ipcore_dir/
+SET_PREFERENCE workingdirectory C:/Users/Admin/Documents/CO prj/Mul/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory C:/Users/Admin/Documents/CO prj/Mul/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory C:/Users/Admin/Documents/CO prj/Mul/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Verilog
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name aa
+SET_SIM_PARAMETER c_component_name aa
+SET_CORE_NAME Linear Algebra Toolkit
+SET_CORE_VERSION 1.0
+SET_CORE_VLNV xilinx.com:ip:linear_algebra_toolkit:1.0
+SET_CORE_CLASS com.xilinx.ip.linear_algebra_toolkit_v1_0.linear_algebra_toolkit_v1_0
+SET_CORE_PATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/linear_algebra_toolkit_v1_0
+SET_CORE_GUIPATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/linear_algebra_toolkit_v1_0/gui/linear_algebra_toolkit_v1_0.tcl
+SET_CORE_DATASHEET C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\linear_algebra_toolkit_v1_0\doc\ds829_linalg_toolkit.pdf
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\linear_algebra_toolkit_v1_0\doc\linear_algebra_toolkit_v1_0_readme.txt><linear_algebra_toolkit_v1_0_readme.txt>
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\linear_algebra_toolkit_v1_0\doc\linear_algebra_toolkit_v1_0_vinfo.html><linear_algebra_toolkit_v1_0_vinfo.html>
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\linear_algebra_toolkit_v1_0\doc\ds829_linalg_toolkit.pdf><ds829_linalg_toolkit.pdf>
