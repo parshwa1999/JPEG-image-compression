@@ -1,0 +1,5 @@
+verilog isim_temp "ipcore_dir/Floating_Point_Multipler.v"
+verilog isim_temp "ipcore_dir/Foating_Point_Adder.v"
+verilog isim_temp "row_column_multiplication.v"
+verilog isim_temp "test2.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

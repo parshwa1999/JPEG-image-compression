@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Floating_Point_Multipler">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-10-9T15:35:48</timestamp>
+    <pin polarity="Input" x="0" y="80" name="s_axis_a_tvalid" />
+    <pin polarity="Output" x="0" y="112" name="s_axis_a_tready" />
+    <pin polarity="Input" x="0" y="144" name="s_axis_a_tdata[31:0]" />
+    <pin polarity="Input" x="0" y="272" name="s_axis_b_tvalid" />
+    <pin polarity="Output" x="0" y="304" name="s_axis_b_tready" />
+    <pin polarity="Input" x="0" y="336" name="s_axis_b_tdata[31:0]" />
+    <pin polarity="Input" x="0" y="656" name="aclk" />
+    <pin polarity="Output" x="704" y="80" name="m_axis_result_tvalid" />
+    <pin polarity="Input" x="704" y="112" name="m_axis_result_tready" />
+    <pin polarity="Output" x="704" y="144" name="m_axis_result_tdata[31:0]" />
+    <graph>
+        <text style="fontsize:40;fontname:Arial" x="32" y="32">Floating_Point_Multipler</text>
+        <rect width="640" x="32" y="32" height="768" />
+        <line x2="32" y1="80" y2="80" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="80" type="pin s_axis_a_tvalid" />
+        <line x2="32" y1="112" y2="112" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin s_axis_a_tready" />
+        <line x2="32" y1="144" y2="144" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="144" type="pin s_axis_a_tdata[31:0]" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin s_axis_b_tvalid" />
+        <line x2="32" y1="304" y2="304" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="304" type="pin s_axis_b_tready" />
+        <line x2="32" y1="336" y2="336" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="336" type="pin s_axis_b_tdata[31:0]" />
+        <line x2="32" y1="656" y2="656" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="656" type="pin aclk" />
+        <line x2="672" y1="80" y2="80" x1="704" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="668" y="80" type="pin m_axis_result_tvalid" />
+        <line x2="672" y1="112" y2="112" x1="704" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="668" y="112" type="pin m_axis_result_tready" />
+        <line x2="672" y1="144" y2="144" style="linewidth:W" x1="704" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="668" y="144" type="pin m_axis_result_tdata[31:0]" />
+    </graph>
+</symbol>
